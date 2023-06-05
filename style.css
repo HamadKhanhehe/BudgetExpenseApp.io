@@ -1,0 +1,149 @@
+body {
+    background-image: url(50634-Money-Man-Walter-White-Bryan-CranstonMoney-Walter.jpg);
+    background-position-y: center;
+    font-family: sans-serif;
+
+
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.addBudget {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.common {
+    background-color: rgba(16, 199, 212, 0.7);
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.common label {
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.common input {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+}
+
+.common button {
+    margin-top: 20px;
+    padding: 8px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(8, 93, 99);
+    color: white;
+    cursor: pointer;
+}
+
+.common button:active,
+.common button:hover {
+    background-color: rgb(15, 110, 117);
+}
+
+
+.addExpense {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(16, 199, 212, 0.7);
+    height: 310px;
+    width: 250px;
+}
+
+.displayExpense {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgba(16, 199, 212, 0.3);
+    height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 17px;
+}
+
+.data {   
+        display: flex;
+            width: 600px;
+            background-color: rgba(16, 199, 212, 0.3);
+            font-size: 13px;
+        
+
+}
+
+.data h1 {
+    /* margin-right: 250px; */
+    padding-right: 20px;
+    padding-left: 29px;
+ 
+}
+
+.data2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 606px;
+    background-color: rgba(62, 206, 211, 0.7);
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    font-size: 15px;
+
+
+}
+
+
+.data2 h4 {
+    text-align: center;
+    width: 80px;
+    margin-left: 4px;
+}
+
+.mainReport {
+    display: flex;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgba(16, 199, 212, 0.7);
+    ;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+    height: 150px;
+    font-size: 16px;
+}
+
+
+
+.btn {
+    width: 55px;
+    height: 28px;
+    border: none;
+    margin-top: 18px;
+    font-size: 12px;
+    border-radius: 7px;
+    background-color: rgb(8, 93, 99);
+    color: white;
+    cursor: pointer;
+}
+.btn button:active,
+ button:hover {
+    background-color: rgb(15, 110, 117);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Expense App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <div>
+            <div class="addBudget common">
+                <label for="">Add Budget </label>
+                <input type="number" id="budgetVal">
+                <button onclick="addBudget()">Add Budget</button>
+            </div>
+            <div class="addExpense common">
+                <label for="">Add Description </label>
+                <input type="text" id="addDes">
+                <label for="">Add Amount</label>
+                <input type="number" id="addAmount">
+                <label for="">Add Date</label>
+                <input type="date" id="addDate">
+                <button onclick="addExpense()">Add Expense</button>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="displayExpense" id="displayExpense">
+                <div class="data">
+                    <h1>Description</h1>
+                    <h1>Amount</h1>
+                    <h1>Date</h1>
+                </div>
+                <div id="dataList">
+                </div>
+            </div>
+
+            <div class="mainReport">
+                <h2>Total Budget: <br>
+                    <span id="finalBudg"></span>
+                </h2>
+                        <h2>Expenses <br>
+                            <span id="finalExp"></span>
+                        </h2>
+                        <h2> Balance: <br>
+                            <span id="remBudget"></span>
+                        </h2>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
